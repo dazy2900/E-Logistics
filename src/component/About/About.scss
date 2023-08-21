@@ -1,0 +1,254 @@
+.about-banner {
+  // display: block;
+  width: 100%;
+  //height: 490px;
+  //border: 2px solid rgb(239, 65, 65);
+  //background-color: #6dd5fa;
+  background: linear-gradient(
+    to right,
+    #51a5de,
+    #6dd5fa,
+    #9ee2fb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .image {
+    width: 75%;
+    //height: 100%;
+    //display: block;
+    //object-fit: cover;
+  }
+
+  .about-title {
+    margin-top: 50px;
+    //text-justify: auto;
+    //border: 1px solid silver;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #09005d;
+
+    .image1 {
+      //width: 45%;
+      height: 45px;
+      margin-left: -5px;
+    }
+  }
+}
+
+.info-section {
+  text-align: left;
+  padding-bottom: 50px;
+  color: #8a8a8a;
+
+  //border: 1px solid black;
+  .info-title {
+    font-weight: 800;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    //border: 1px solid rgb(114, 46, 46);
+    color: rgb(94, 92, 92);
+  }
+
+  .info-text {
+    font-size: 13px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    //border: 1px solid rgb(114, 46, 46);
+  }
+
+  .info-icon {
+    width: 70px;
+    height: 60px;
+    //border: 1px solid rgb(99, 63, 63);
+    margin-left: 25px;
+    margin-top: 50px;
+
+    /*:nth-child(1) {
+      }
+      :nth-child(2) {
+      }
+      :nth-child(3) {
+      }*/
+  }
+}
+
+.scam-section {
+  text-align: left;
+  padding-bottom: 50px;
+  color: #cecbcb;
+  background-color: #2e5f6d;
+  padding-top: 50px;
+
+  .scam-header {
+    //text-align: center;
+    padding-left: 40px;
+    color: #efeded;
+  }
+
+  //border: 1px solid black;
+  .scam-title {
+    font-weight: 700;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    //border: 1px solid rgb(114, 46, 46);
+    color: #efeded;
+  }
+
+  .scam-text {
+    font-size: 13px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    //border: 1px solid rgb(114, 46, 46);
+    margin-bottom: 20px;
+  }
+}
+
+.driver-section {
+  text-align: left;
+  .img-div {
+    padding: 40px 0;
+
+    width: 80%;
+    //border: 1px solid red;
+
+    .driver-img {
+      width: 100%;
+    }
+  }
+  .text-container {
+    padding: 20px 0 40px 0;
+
+    display: flex;
+    align-items: center;
+    .driver-textarea {
+      vertical-align: auto;
+      //border: 1px solid red;
+      //margin-top: 80px;
+      //width: 90%;
+    }
+
+    .driver-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //border: 1px solid rgb(99, 63, 63);
+
+      /*:nth-child(1) {
+      }
+      :nth-child(2) {
+      }
+      :nth-child(3) {
+      }*/
+    }
+
+    .texts {
+      .driver-title {
+        font-weight: 700;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        //border: 1px solid rgb(114, 46, 46);
+        color: #6e6b6b;
+      }
+
+      .driver-text {
+        font-size: 13px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 500;
+        //border: 1px solid rgb(114, 46, 46);
+        color: #8a8888;
+      }
+    }
+  }
+}
+
+.faq-section {
+  text-align: left;
+  padding-bottom: 50px;
+  color: #cecbcb;
+  //background-color: #2e5f6d;
+  padding-top: 50px;
+
+  .faq-header {
+    text-align: center;
+    padding-left: 40px;
+    color: #585757;
+  }
+
+  //border: 1px solid black;
+  .section {
+    cursor: pointer;
+
+    &::after {
+      content: 'Read more...';
+      position: relative;
+      color: #51a5de;
+      //border: 1px solid blue;
+      font-size: 12px;
+      margin: 30px 0px 0px 27px;
+    }
+
+    .faq-title {
+      font-weight: 700;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      //border: 1px solid rgb(114, 46, 46);
+      color: #6e6b6b;
+      /*&::after {
+        content: '>';
+        //position: relative;
+        text-align: right;
+        border: 1px solid blue;
+        right: 4px;
+      }*/
+    }
+
+    .faq-text {
+      font-size: 13px;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: 500;
+      //border: 1px solid rgb(114, 46, 46);
+      margin-bottom: 20px;
+      height: 40px;
+      color: #8a8888;
+
+      overflow: hidden;
+      transition: all 3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    }
+
+    .faq-text.show {
+      overflow: visible;
+      height: fit-content;
+      transition: all 3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    }
+  }
+
+  .section.open {
+    &::after {
+      display: none;
+      transition: all 3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    }
+  }
+}

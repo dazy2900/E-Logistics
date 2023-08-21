@@ -1,0 +1,229 @@
+.image-div {
+  width: 45%;
+  margin-left: 70px;
+  .passenger-image {
+    width: 100%;
+    //display: none;
+  }
+}
+.nav-div {
+  margin: 30px 0 0 30px;
+  //display: none;
+}
+.Modal-title {
+  font-size: 11px;
+  font-weight: 600;
+}
+.modal-table-container {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  //border-radius: 15px;
+  //box-shadow: 2px 2px 1px 3px #5f5e5e2b;
+
+  //border: 2px solid silver;
+
+  .date-time {
+    width: 24%;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .departure {
+    width: 24%;
+    .departure-div {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: -10px;
+    }
+    .point-div {
+      font-size: 12px;
+    }
+  }
+  .destination {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .seats {
+    width: 29%;
+  }
+  .price {
+    width: 23%;
+    font-weight: 700;
+  }
+  .d-name {
+    padding-bottom: 0px;
+    margin-bottom: -6px;
+    //border: 1px solid silver;
+  }
+  .seat-numb {
+    width: 35px;
+    border: none;
+    border-bottom: 2px solid silver;
+  }
+  .d-info {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .modal-price {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .modal-price-text {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .delete-icon {
+    cursor: pointer;
+    //display: none;
+  }
+  .passenger-list-icon {
+    cursor: pointer;
+  }
+  .delete-text {
+    font-size: 12px;
+    margin-top: -10px;
+    color: red;
+  }
+
+  .passenger-text {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .reject-text {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .book-trip {
+    font-size: 12px;
+    margin-top: -10px;
+    color: black;
+  }
+
+  .btn {
+    z-index: 5;
+  }
+  .dp {
+    //width: 20%;
+    //height: 100px;
+    //border: 1px solid #000;
+
+    .dp-image {
+      //display: none;
+      width: 50%;
+      //height: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+.table-container1 {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px 3px #5f5e5e2b;
+
+  //border: 2px solid silver;
+
+  .date-time {
+    width: 23%;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .departure {
+    width: 35%;
+    .departure-div {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: -10px;
+    }
+    .point-div {
+      font-size: 12px;
+    }
+  }
+  .destination {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .seats {
+    width: 17%;
+  }
+  .price {
+    width: 25%;
+    font-weight: 700;
+  }
+  .d-name {
+    padding-bottom: 0px;
+    margin-bottom: -6px;
+    //border: 1px solid silver;
+  }
+  .seat-numb {
+    width: 26px;
+    border: none;
+    border-bottom: 2px solid silver;
+  }
+  .d-info {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .delete-icon {
+    cursor: pointer;
+    //display: none;
+  }
+  .passenger-list-icon {
+    cursor: pointer;
+  }
+  .delete-text {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -10px;
+    color: red;
+  }
+  .complete-text {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: -10px;
+  }
+  .passenger-text {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+  .reject-text {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .book-trip {
+    font-size: 12px;
+    margin-top: -10px;
+    color: black;
+  }
+
+  .btn {
+    z-index: 5;
+  }
+  .dp {
+    //width: 20%;
+    //height: 100px;
+    //border: 1px solid #000;
+
+    .dp-image {
+      //display: none;
+      width: 50%;
+      //height: 100%;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .image-div {
+    width: 70%;
+    margin-left: 70px;
+    .passenger-image {
+      width: 100%;
+      //display: none;
+    }
+  }
+}

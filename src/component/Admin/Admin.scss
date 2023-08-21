@@ -1,0 +1,51 @@
+.TextField {
+  height: 32px;
+  width: 200px;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #e5e5e5;
+  padding: 0 32px 0 16px;
+}
+
+.ClearButton {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background-color: rgb(149, 172, 250);
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TableContainer {
+  ::-webkit-scrollbar {
+    width: 3px;
+    height: 12xpx;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(192, 192, 192);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey;
+  }
+}
+.accept-icon {
+  cursor: pointer;
+  margin: 0px 20px;
+  z-index: 10;
+}
+.cancel-icon {
+  cursor: pointer;
+  margin: 0px 10px;
+}

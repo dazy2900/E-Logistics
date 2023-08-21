@@ -1,0 +1,243 @@
+.footer-container {
+  //display: none;
+}
+.signup-image-div {
+  margin-top: 12%;
+  margin-left: 15%;
+  width: 85%;
+  //display: none;
+  .signup-image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.s-container {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  .signup-container {
+    //display: flex;
+    //align-items: center;
+    width: 95%;
+    padding: 0px 0 10px 0;
+    position: relative;
+    top: 7vh;
+    border-radius: 7px;
+    transform: translateZ(-50%);
+
+    .tape {
+      width: 100%;
+      background-color: #4f52ff;
+      border-radius: 10px 10px 0 0;
+      height: 5px;
+    }
+    .logo-container {
+      margin-top: 20px;
+      //display: none;
+      width: 25%;
+      //height: 45px;
+      //margin-left: -5px;
+      .logo-img {
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    }
+
+    .header-container {
+      margin-bottom: 30px;
+      .signup-title {
+        opacity: 0.9;
+      }
+    }
+
+    .form-input {
+      width: 80%;
+    }
+    .body-container {
+      font-weight: 500;
+      color: #727373;
+      width: 80%;
+
+      .form-input {
+        width: 70%;
+      }
+      .input {
+        border: none;
+        border-bottom: 1px solid silver;
+        width: 100%;
+      }
+      input:focus {
+        outline: none;
+      }
+
+      .half-div {
+        width: 104%;
+
+        margin-left: -10px;
+        //border: 1px solid black;
+      }
+      .button-div {
+        width: 100%;
+        .button {
+          //border: 1px solid silver;
+          background-color: #4f52ff;
+          background: linear-gradient(to right, #4f52ff, #7491f9);
+          border-radius: 0;
+          height: 45px;
+          color: white;
+          font-weight: 500;
+          width: 100%;
+        }
+      }
+
+      .fb-div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        border-bottom: 1px solid silver;
+        padding: 20px 15px;
+        width: 85%;
+
+        &:hover {
+          background-color: #e3e5e5;
+        }
+
+        .fb-text {
+          opacity: 1;
+        }
+      }
+      .signin-link {
+        text-align: left;
+        width: 85%;
+        padding: 0 15px;
+
+        .link {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .signin-container {
+    //display: flex;
+    //align-items: center;
+    //border: 1px solid red;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    transform: translateZ(-50%);
+
+    .logo-container {
+      //margin-bottom: 50px;
+      width: 50%;
+      //height: 45px;
+      //margin-left: -5px;
+      .logo-img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    .header-container {
+      margin-bottom: 30px;
+      .signup-title {
+        opacity: 0.7;
+      }
+    }
+
+    .form-container {
+      font-weight: 500;
+      color: #727373;
+
+      input:focus {
+        outline: none;
+      }
+
+      .email-input-div {
+        width: 80%;
+        .email-input {
+          border: none;
+          border-radius: 0;
+          border-bottom: 1px solid silver;
+          width: 100%;
+          height: 45px;
+          font-weight: 400;
+          color: #a6a5a5;
+
+          input:focus {
+            outline: none;
+          }
+        }
+      }
+
+      .pass-input-div {
+        width: 80%;
+        .pass-input {
+          border: none;
+          border-radius: 0;
+          border-bottom: 1px solid rgb(168, 167, 167);
+          width: 100%;
+          height: 45px;
+          color: #a6a5a5;
+          //font-weight: 500;
+        }
+      }
+
+      .button-div {
+        width: 80%;
+        .button {
+          //border: 1px solid silver;
+          background-color: #4f52ff;
+          background: linear-gradient(to right, #4f52ff, #7491f9);
+          border-radius: 0;
+          height: 45px;
+          color: white;
+          font-weight: 500;
+          width: 100%;
+        }
+      }
+      .button2 {
+        //border: 1px solid silver;
+        background-color: #4f52ff;
+        //background: linear-gradient(to left, #4f52ff, #7378fc, #7da8e8);
+        border-radius: 0;
+        height: 45px;
+        color: white;
+        font-weight: 500;
+        width: 80%;
+      }
+      .fb-div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        border-bottom: 1px solid silver;
+        padding: 20px 15px;
+        width: 85%;
+
+        &:hover {
+          background-color: #e3e5e5;
+        }
+
+        .fb-text {
+          opacity: 1;
+        }
+      }
+      .signin-link {
+        text-align: left;
+        width: 85%;
+        padding: 0 15px;
+
+        .link {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .signup-image-div {
+    display: none;
+  }
+}

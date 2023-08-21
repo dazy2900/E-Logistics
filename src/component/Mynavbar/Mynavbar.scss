@@ -1,0 +1,20 @@
+.Nav-bar {
+  position: fixed;
+  display: none;
+}
+.navbar-fixed-top {
+  background-color: white;
+}
+.navbar-img {
+  width: 133px;
+}
+.nav-icon {
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+@media (max-width: 750px) {
+  .nav-icon {
+    margin-left: 5%;
+  }
+}

@@ -1,0 +1,40 @@
+.footer-container{
+    background-color: rgb(12, 23, 28);
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+
+    a:link {
+        text-decoration: none;
+        color: grey;
+        
+      }
+    .row{
+        width: 80%;
+
+        .top{
+            color: silver;
+            font-weight: 600;
+            font-size: 18px;
+            
+        }
+    }
+  
+    .register-links{
+        width: 70%;
+    }
+    .text-links{
+        width: 70%;
+    }
+    .contact-links{
+        width: 70%;
+    }
+
+    .img-div{
+        width: 200px;
+
+        .footer-logo{
+            width: 100%;
+        }
+    }
+}
