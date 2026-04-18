@@ -53,7 +53,7 @@ const Signup = () => {
       } else if (status == 'admin_logged_in') {
         window.location.href = '/admin'
       } else {
-        // alert('not yet')
+        alert('not yet')
       }
       //alert(JSON.parse(new_data))
     })

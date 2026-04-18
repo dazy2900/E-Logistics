@@ -169,11 +169,8 @@ const Trips = () => {
     ViewStuff()
   }, [])
   const ViewStuff = () => {
-    const user = cookies.user
-
     const data = {
       request: 'admin_trip',
-      user: user,
     }
     const new_data = JSON.stringify(data)
 

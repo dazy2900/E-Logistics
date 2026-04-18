@@ -154,11 +154,8 @@ const JoinedTrips = () => {
     ViewStuff()
   }, [])
   const ViewStuff = () => {
-    const user = cookies.user
-
     const data = {
       request: 'admin_joined_trip',
-      user: user,
     }
     const new_data = JSON.stringify(data)
 

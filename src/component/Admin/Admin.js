@@ -158,7 +158,7 @@ const Admin = () => {
               </li>
             </ul>
           </div>
-          <div className="passenger-display">
+          <div className="passenger-display  p-4">
             <PresentSection />
           </div>
         </div>

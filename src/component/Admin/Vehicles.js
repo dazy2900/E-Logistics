@@ -130,7 +130,6 @@ const Vehicles = () => {
 
     const data = {
       request: 'admin_vehicle',
-      user: user,
     }
     const new_data = JSON.stringify(data)
 

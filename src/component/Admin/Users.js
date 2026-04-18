@@ -16,7 +16,7 @@ const Users = () => {
   const [filterText, setFilterText] = useState('')
   const [resetPaginationToggle, setResetPaginationToggle] = useState(false)
   const secretPass = 'secretPass@1234'
-
+  console.log(post, Array.isArray(post))
   const filteredItems = post.filter(
     (item) =>
       (item.name &&
@@ -136,7 +136,8 @@ const Users = () => {
       const trip_request = response.data
       //alert(trip_request)
       setPost(trip_request)
-      console.log(post)
+      console.log(trip_request)
+      //console.log(post)
     })
   }
 
